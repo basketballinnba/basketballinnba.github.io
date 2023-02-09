@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title>Warriors de Golden State</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="icon" href="Warriors_de_Golden_State_logo_456.png">
+        <script src="script2.js" defer></script>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+        <h1>Golden State Warriors</h1>
+        <h2>Présentation de l'équipe Warrios de Golden State</h2>
+        Les Warriors de Golden State (en anglais : Golden State Warriors, GSW, « Guerriers de l’État doré ») sont une franchise californienne de basket-ball de la NBA basée à San Francisco, dans la région de la baie de San Francisco. Elle évolue dans la Conférence Ouest, dans la Division Pacifique, et dispute ses matchs à domicile au Chase Center.
+        Fondée en 1946 sous le nom de Warriors de Philadelphie, la franchise remporte la première édition du championnat de la BAA, ancêtre de la NBA, en 1947. Elle déménage à San Francisco en 1962, où elle prend le nom de Warriors de San Francisco jusqu'en 1971, et voit évoluer des vedettes du basket-ball des années 1960 et 1970 : Rick Barry, Paul Arizin, Nate Thurmond et surtout Wilt Chamberlain, considéré comme l'un des plus grands basketteurs de l'histoire.
+        <br>
+        <br>
+        Elle connaît des difficultés par la suite, avant de parvenir à remporter un quatrième titre lors de la saison 2014-2015. Lors de la saison 2015-2016, ils établissent le record du plus grand nombre de victoires en saison régulière, soit 73 matchs gagnés, battant le record de 72 matchs gagnés des Bulls de Chicago durant leur saison 1995-1996. La franchise remporte son cinquième titre lors de la saison 2016-2017, face aux Cavaliers de Cleveland en finale, puis réitère cette performance face au même adversaire l'année suivante, menée par Stephen Curry, Klay Thompson, Draymond Green et Kevin Durant.
+        <br>
+        <br>
+        Elle est réputée pour son style très offensif (run and gun) : elle figure depuis plusieurs années parmi les meilleures attaques de la ligue. Elle utilise fréquemment un système dit de small ball, avec de plus petits joueurs, pour valoriser l'agilité, la rapidité et le tir à trois points, au détriment de la force physique et du jeu dans la raquette.
+        <h2>L'histoire de l'équipe Golden State Warriors </h2>
+        Les Warriors de Philadelphie furent parmi les premières franchises de la BAA. En 1962, ils déménagèrent et devinrent les « San Francisco Warriors ». En 1970, ils changèrent de nouveau leur nom en « Warriors de Golden State » et furent accueillis par la ville d'Oakland. « Golden State » (État doré) est un surnom pour la Californie.
+        <h2>Quelque membre de l'équipe</h2>
+
+        <!-- une liste sans numérotation-->
+        <ul>
+            <li> Stephen Curry</li>
+            <li> Klay Thompson</li>
+            <li> Jordan Poole</li>
+            <li> Draymond Green</li>
+        </ul> 
+        
+        <div id="logowarriors">
+            <img src="Warriors_de_Golden_State_logo_456.png" width="69" height="80">
+        </div>
+
+
+        <!-- pour integrer une image, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <table>
+        <tr><td><img src="curr14.jpg" width="350" height="197"></td>
+        <td><img src="klay-thompson-ftr.jpeg" width="350" height="197"></td>
+        <td><img src="Jordan-Poole-Getty.jpeg" width="350" height="197"></td>
+        <td><img src="2022-draymong-green-getty.jpg" width="350" height="197"></td></tr>
+        </table>
+        
+        <p>Sélectionner un joueur pour obtenir ses informations:</p>
+        <select onchange="basket(this.value)">
+            <option value="rien" selected></option>
+            <option value="Stephen Curry">Stephen Curry</option>
+            <option value="Klay Thompson">Klay Thompson</option>
+            <option value="Jordan Poole">Jordan Poole</option>
+            <option value="Draymond Green">Draymond Green</option>
+        </select>
+
+        <br/>
+        <div id="infoJoueur"> 
+        </div>
+        
+        <br>
+
+
+
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/O6cimF_PyD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+        
+        <!--pour integrer un lien vers un autre site -->
+        <a href=https://fr.wikipedia.org/wiki/Warriors_de_Golden_State> Pour plus d'information cliquez dessus(wikipédia)</a>
+        <br>
+        <!--pour integrer un lien vers un autre page HTML, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <a href="file:///C:/Guillaume/NSI/HTML/index.html">Pour retournez à la page d'avant cliquez dessus</a><br>
+
+	</body>
+</html>

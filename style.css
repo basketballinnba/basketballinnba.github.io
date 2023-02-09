@@ -1,0 +1,30 @@
+/* Fichier CSS à personnaliser */
+body{
+  background-color: white);
+}
+table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 72px;
+  background: linear-gradient(90deg, rgba(29,66,138) 16%, rgba(200,16,46) 100%);
+  color: white;
+  }
+  
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#L {
+  text-align: center;
+}
+#logonba{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}

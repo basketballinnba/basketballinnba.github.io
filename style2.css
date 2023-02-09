@@ -1,0 +1,39 @@
+/* Fichier CSS à personnaliser */
+body{
+  background-color: rgb(249, 248, 248);
+}
+table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 72px;
+  background: linear-gradient(90deg, rgba(29,66,138) 16%, rgba(255,199,44) 100%);
+  color: white;
+  }
+
+.souligne {
+    text-decoration: underline red;
+}
+
+#bloc1 {
+    border: 5px solid purple;
+    width: 40%;
+    background-color: darkturquoise;
+    color: white;
+    padding:20px;
+  }
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logowarriors{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}

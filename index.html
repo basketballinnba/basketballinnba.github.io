@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title> NBA</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="hdwoedfjewofn.png">  
+        <script src="script.js" defer></script>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body>
+        <!--Structurer son texte-->
+        <h1>NBA</h1>
+        <h2>Présentaion de la NBA</h2>
+        La National Basketball Association (NBA) est la principale ligue de basket-ball au monde. Créée le 6 juin 1946 sous le nom de BAA (Basketball Association of America), la ligue est renommée NBA en 1949 après sa fusion avec la NBL (National Basketball League)1. Elle est l'une des quatre ligues professionnelles majeures du sport américain, aux côtés de la NFL (football américain), de la MLB (baseball) et de la NHL (hockey sur glace). Le siège de la NBA est situé dans l'Olympic Tower au 645, de la 5e Avenue à New York. En 2015, les joueurs de la NBA sont les sportifs les mieux payés au monde.
+        <br>
+        <br>
+         Après des débuts dans l'après-guerre, la NBA voit sa popularité s'accroître dans les années 1960, marquées par la domination des Celtics et la rivalité entre Bill Russell et Wilt Chamberlain. Après un passage à vide dans les années 1970, la ligue se développe peu à peu hors des États-Unis à partir des années 1980 en accueillant des joueurs non-américains et en bénéficiant de la popularité de joueurs stars comme Larry Bird, Magic Johnson, et surtout Michael Jordan, considéré comme l'un des plus grands sportifs de tous les temps. La NBA est actuellement considérée comme le championnat de basket-ball le plus prestigieux au monde en termes de niveau de jeu, d'affluences et d'audiences, disposant même de sa propre chaîne de télévision (NBA TV). Elle a également créé deux ligues affiliées : la WNBA (basket-ball féminin) et la NBA G League (ligue mineure).
+        <h2>L'histoire de la NBA</h2>
+        La National Basketball League, fondée en 1898 et dissoute en 1904, est le précurseur des nombreuses ligues professionnelles créées aux États-Unis et dans le reste du monde tout au long du siècle. Hormis la Eastern Basket Ball League, fondée en 1909, les principales ligues professionnelles sont créées au début des années 1920 : la Metropolitan Basketball League (1921) et l'American Basketball League (1925).
+        <br>
+        <br>
+        La Basketball Association of America (BAA) est fondée le 6 juin 1946 à l'hôtel Commodore, à New York par les propriétaires des arènes de sport du Nord-Est et du Midwest des États-Unis. Maurice Podoloff est nommé président. Le premier match disputé en BAA oppose le 1er novembre 1946 les Huskies de Toronto aux Knicks de New York. La ligue était interdite aux Afro-Américains à sa création. Cette interdiction est levée en 1950.
+        <h2>Quelques équipes de la NBA</h2>
+        
+        <ul>
+            <li> Warriors de Golden State </li>
+            <li> Lakers de Los Angeles</li>
+            <li> Celtics de Boston </li>
+            <li> Nets de Brooklyn</li>
+            <li> Grizzlies de Memphis</li>
+        </ul> 
+
+
+        <!-- pour integrer une image, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <table>
+        <tr> <td><img src="Warriors_de_Golden_State_logo_456.png" width="200" height="230"></td>
+        <td><img src="1200px-Los_Angeles_Lakers_logo.svg.png" width="300" height="200" ></td>
+        <td><img src="Celtics_de_Boston_logo.svg.png" width="200" height="200" ></td>
+        <td><img src="1200px-Brooklyn_Nets_newlogo.svg.png" width="180" height="200" ></td>
+        <td><img src="Grizzlies_de_Memphis_2018.png" width="160" height="200" ></td></tr>
+        </table>
+        <br>
+        
+        
+        <p>Sélectionner une équipe pour obtenir ses informations:</p>
+        <select onchange="basket(this.value)">
+            <option value="rien" selected></option>
+            <option value="Warriors de Golden State">Warriors de Golden State</option>
+            <option value="Lakers de Los Angeles">Lakers de Los Angeles</option>
+            <option value="Celtics de Boston">Celtics de Boston</option>
+            <option value="Nets de Brooklyn">Nets de Brooklyn</option>
+            <option value="Grizzlies de Memphis">Grizzlies de Memphis</option>
+        </select>
+
+        <br/>
+        <div id="infoEquipe"> 
+        </div>
+        
+        <br>
+        
+        <div id="L">
+            <h2>Les meilleurs moments de la NBA en 2022</h2>
+        </div>
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ulfJXy4QptQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <br>
+
+        <div id="logonba">
+            <img src="hdwoedfjewofn.png" width="133" height="100">
+        </div>
+
+
+
+
+        <!--pour integrer un lien vers un autre site -->
+        <a href="https://fr.wikipedia.org/wiki/National_Basketball_Association">Pour plus d'information cliquez dessus(wikipédia)</a>
+        <br>
+        <!--pour integrer un lien vers un autre page HTML, enregistrée dans le même répertoire que le présent fichier HTML-->
+        <a href="file:///C:/Users/guill/MonSiteWeb/basketballinnba.github.io/Warriors.html"> Pour des informations sur Golden State Warrios cliquez dessus</a><br>
+	</body>
+</html>
